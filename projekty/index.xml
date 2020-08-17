@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wybrane projekty realizowane przez &lt;span&gt;Fundację&lt;/span&gt; on Dzień Przedsiębiorcy</title>
+    <link>https://dzienprzedsiebiorcy.org/projekty/</link>
+    <description>Recent content in Wybrane projekty realizowane przez &lt;span&gt;Fundację&lt;/span&gt; on Dzień Przedsiębiorcy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 23 Dec 2019 16:48:28 +0600</lastBuildDate>
+    
+	<atom:link href="https://dzienprzedsiebiorcy.org/projekty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#BusinessChallenge</title>
+      <link>https://dzienprzedsiebiorcy.org/projekty/business-challenge/</link>
+      <pubDate>Mon, 23 Dec 2019 20:56:42 +0600</pubDate>
+      
+      <guid>https://dzienprzedsiebiorcy.org/projekty/business-challenge/</guid>
+      <description>#BusinessChallenge to ogólnopolska kampania mająca na celu uhonorowanie, podziękowanie i wsparcie wszystkich przedsiębiorców zatrudniających na terenie polski. Zorganizowana z okazji dnia przedsiębiorców który jest obchodzony 21 czerwca na mocy uchwały sejmu z dnia 9 czerwca 2016 roku.</description>
+    </item>
+    
+    <item>
+      <title>Dzień Przedsiębiorcy</title>
+      <link>https://dzienprzedsiebiorcy.org/projekty/dzien-przedsiebiorcy/</link>
+      <pubDate>Mon, 23 Dec 2019 15:56:43 +0600</pubDate>
+      
+      <guid>https://dzienprzedsiebiorcy.org/projekty/dzien-przedsiebiorcy/</guid>
+      <description>O dniu przedsiębiorcy
+W lipcu 2014 roku, na wniosek Zespołu ds. powołania Ogólnopolskiego Dnia Przedsiębiorcy, Prezes KIG zwrócił się do Wicemarszałka Sejmu RP z wnioskiem o powołanie Ogólnopolskiego Dnia Przedsiębiorcy.</description>
+    </item>
+    
+    <item>
+      <title>Pomnik przedsiębiorcy</title>
+      <link>https://dzienprzedsiebiorcy.org/projekty/pomnik-przedsiebiorcy/</link>
+      <pubDate>Mon, 23 Dec 2019 15:44:46 +0600</pubDate>
+      
+      <guid>https://dzienprzedsiebiorcy.org/projekty/pomnik-przedsiebiorcy/</guid>
+      <description>POMNIK PRZEDSIĘBIORCY
+Międzynarodowy Pomnik Przedsiębiorcy International Entrepreneur Monument
+Miejsce międzynarodowej współpracy gospodarczej
+Pomnik jest symbolem naszego głębokiego szacunku dla Przedsiębiorców, aby kolejne pokolenia mogły korzystać z wiedzy, mądrości i doświadczenia biznesowego.</description>
+    </item>
+    
+  </channel>
+</rss>
