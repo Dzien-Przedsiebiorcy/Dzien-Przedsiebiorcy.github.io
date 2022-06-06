@@ -5,10 +5,6 @@
     <link>https://dzienprzedsiebiorcy.org/categories/</link>
     <description>Recent content in Categories on Dzień Przedsiębiorcy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language>
-    
-	<atom:link href="https://dzienprzedsiebiorcy.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>pl</language><atom:link href="https://dzienprzedsiebiorcy.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
