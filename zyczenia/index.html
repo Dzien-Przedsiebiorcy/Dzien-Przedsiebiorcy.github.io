@@ -163,7 +163,8 @@
         <div class="card-container">
           <div class="card u-clearfix">
             <div class="card-body" >
-                <p>3. Kartka z życzeniami ukaże się na stronie głównej wraz z logotypem, oraz zostanie wysłana w eleganckiej formie fizycznej do wybranego przedsiębiorcy.</p>
+                <p>3. Zaznacz rodzaj kartki</p>
+                
             </div>
           </div>
           <div class="card-shadow-now" ></div>
@@ -173,7 +174,17 @@
         <div class="card-container">
           <div class="card u-clearfix">
             <div class="card-body" >
-                <p>4. W przypadku wsparcia zbiórki na budowę Pomnika Przedsiębiorcy kwotą powyżej 5tyś zł, kartka wydana zostanie w postaci <b>NFT i zapisana na Blockchainie.</b></p>
+                <p>4. Kartka z życzeniami ukaże się na stronie głównej wraz z logotypem, oraz zostanie wysłana w eleganckiej formie fizycznej do wybranego przedsiębiorcy.</p>
+            </div>
+          </div>
+          <div class="card-shadow-now" ></div>
+        </div>
+
+        <br/>
+        <div class="card-container">
+          <div class="card u-clearfix">
+            <div class="card-body" >
+                <p>5. W przypadku wsparcia zbiórki na budowę Pomnika Przedsiębiorcy kwotą powyżej 5tyś zł, kartka wydana zostanie w postaci <b>NFT i zapisana na Blockchainie.</b></p>
             </div>
           </div>
           <div class="card-shadow-now" ></div>
@@ -235,13 +246,17 @@
 
                     <div class="break"><p></p></div>
 
-                    <div class="col-12">
-                    <div class="col-lg-6">
-
-                      <input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1783314743" value="Brazowa" />Brązowa&nbsp;&nbsp;&nbsp;
-                      <input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1587566315" value="Srebrna" />Srebrna&nbsp;&nbsp;&nbsp;
-                    
+                    <div class="col-12" style="">
+                      <ul style="list-style:none;">
+                      <li><input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1783314743" value="Brazowa" />&nbsp;&nbsp;Brązowa - nominał 50 zł lub więcej&nbsp;&nbsp;&nbsp;</li>
+                      <li><input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1587566315" value="Srebrna" />&nbsp;&nbsp;Srebrna - nominał 100 zł lub więcej&nbsp;&nbsp;&nbsp;</li>
+                      <li><input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1585315186" value="Zlota" />&nbsp;&nbsp;Złota - nominał 500 zł lub więcej&nbsp;&nbsp;&nbsp;</li>
+                      <li><input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.298364447" value="Platynowa" />&nbsp;&nbsp;Platynowa - powyżej 1000 zł&nbsp;&nbsp;&nbsp;</li>
+                      </ul>
                     </div>
+                    <div class="col-12">
+                    <hr>
+                    <div class="col-lg-6">
                       <button type="submit" class="btn btn-primary" id="contact-form-button">
                         <span class="btn-area">
                           <span data-text="Send Message">
@@ -249,6 +264,7 @@
                           </span>
                         </span>
                       </button>
+                    </div>
                     </div>
                     <p id="contact-form-status"></p>
                   </div>
