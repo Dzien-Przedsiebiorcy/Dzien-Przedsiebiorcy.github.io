@@ -128,6 +128,7 @@
   </div>
 </nav>
 <main>
+
 <section class="site-contact">
   <div class="container">
     <div class="row">
@@ -192,6 +193,25 @@
 
               <div class="site-contact-form" >
                 <h4>Życzenia dla przedsiębiorców</h4>
+  <script>
+    function onlyOne(checkbox) {
+    var checkboxes = document.getElementsByClassName('check123')
+    checkboxes.forEach((item) => {
+        if (item !== checkbox) item.checked = false
+    })
+}
+  </script>
+  <script>
+    function checkOnlyOne(b){
+
+    var x = document.getElementsByClassName('daychecks');
+    var i;
+
+    for (i = 0; i < x.length; i++) {
+      if(x[i].value != b) x[i].checked = false;
+    }
+    }
+  </script>
                 <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfLvT42ejmsIrZL5v9IJL7eJp8Cs7y7sQdOhWcjXRqr9R3JnQ/formResponse" method="POST">
                   <div class="row">
                     <div class="col-12">
@@ -216,6 +236,12 @@
                     <div class="break"><p></p></div>
 
                     <div class="col-12">
+                    <div class="col-lg-6">
+
+                      <input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1783314743" value="Brazowa" />Brązowa&nbsp;&nbsp;&nbsp;
+                      <input class="daychecks" onclick="checkOnlyOne(this.value);" type="checkbox" name="entry.1587566315" value="Srebrna" />Srebrna&nbsp;&nbsp;&nbsp;
+                    
+                    </div>
                       <button type="submit" class="btn btn-primary" id="contact-form-button">
                         <span class="btn-area">
                           <span data-text="Send Message">
